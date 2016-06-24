@@ -32,15 +32,21 @@ __Plain extra__
 
 - `prsf`: private static final
 
-
+    ![](https://raw.githubusercontent.com/cesards/HakunaMatataIntelliJPlugin/master/art/prsf.gif?token=ABdwT6uJqHF7A2PWJ-eqYtyi4x8TBhTBks5XdoGxwA%3D%3D)
+   
 - `prsfi`: private static final int
 
+    ![](https://raw.githubusercontent.com/cesards/HakunaMatataIntelliJPlugin/master/art/prsfi.gif?token=ABdwT90OQ-CAnlKoXATv6MuYKGVPPdklks5XdoHHwA%3D%3D)
 
 - `prsfs`: private static final String
+    
+    ![](https://raw.githubusercontent.com/cesards/HakunaMatataIntelliJPlugin/master/art/prsfs.gif?token=ABdwT1cuDeC231vT2pzTqQUlwspTe6hCks5XdoHdwA%3D%3D)
 
 __Other extra__
 
 - `ifElse`: Inserts ''if else'' statement
+
+    ![](https://raw.githubusercontent.com/cesards/HakunaMatataIntelliJPlugin/master/art/ifElse.gif?token=ABdwT1butDlatO1eJK-SdDgEmSDklrmvks5XdoErwA%3D%3D)
 
 __Timber__
 
@@ -138,7 +144,7 @@ __Mockito__
 ### References
 
 - [__keyboardsurfer idea-live-templates__](https://github.com/keyboardsurfer/idea-live-templates)
-- [__Sharing Live Templates Creating and Editing Template Variables_](https://www.jetbrains.com/help/idea/2016.1/creating-and-editing-template-variables.html)
+- [__Sharing Live Templates Creating and Editing Template Variables__](https://www.jetbrains.com/help/idea/2016.1/creating-and-editing-template-variables.html)
 
 
 
