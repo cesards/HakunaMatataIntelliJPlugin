@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templateSet group="other_extra">
+    <template name="ifElse"
+              value="if ($VAR$ $END$) { } else { }"
+              description="Inserts ''if else'' statement"
+              toReformat="true"
+              toShortenFQNames="true">
+        <variable name="VAR"
+                  expression="suggestFirstVariableName(&quot;Object&quot;)"
+                  defaultValue="var"
+                  alwaysStopAt="true"/>
+        <context>
+            <option name="JAVA_CODE" value="false"/>
+            <option name="JAVA_STATEMENT" value="true"/>
+            <option name="GROOVY" value="false"/>
+            <option name="GROOVY_STATEMENT" value="true"/>
+        </context>
+    </template>
+</templateSet>

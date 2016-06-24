@@ -1,0 +1,38 @@
+<templateSet group="plain_extra">
+    <template name="prsf"
+              value="private static final "
+              description="private static final"
+              toReformat="false"
+              toShortenFQNames="true">
+        <context>
+            <option name="JAVA_CODE" value="false"/>
+            <option name="JAVA_DECLARATION" value="true"/>
+            <option name="GROOVY" value="false"/>
+            <option name="GROOVY_DECLARATION" value="true"/>
+        </context>
+    </template>
+    <template name="prsfi"
+              value="private static final int "
+              description="private static final int"
+              toReformat="false"
+              toShortenFQNames="true">
+        <context>
+            <option name="JAVA_CODE" value="false"/>
+            <option name="JAVA_DECLARATION" value="true"/>
+            <option name="GROOVY" value="false"/>
+            <option name="GROOVY_DECLARATION" value="true"/>
+        </context>
+    </template>
+    <template name="prsfs"
+              value="private static final String "
+              description="private static final String"
+              toReformat="false"
+              toShortenFQNames="true">
+        <context>
+            <option name="JAVA_CODE" value="false"/>
+            <option name="JAVA_DECLARATION" value="true"/>
+            <option name="GROOVY" value="false"/>
+            <option name="GROOVY_DECLARATION" value="true"/>
+        </context>
+    </template>
+</templateSet>

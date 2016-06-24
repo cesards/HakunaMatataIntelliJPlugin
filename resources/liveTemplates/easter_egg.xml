@@ -1,0 +1,18 @@
+<templateSet group="easter_egg">
+    <template name="trolling"
+              value="/** $arg$ */"
+              description="Adds a random trolling comment"
+              toReformat="true"
+              toShortenFQNames="true">
+        <variable name="arg"
+                  expression="groovyScript(livetemplate.CommentGenerator.generateRandom())"
+                  defaultValue=""
+                  alwaysStopAt="false"/>
+        <context>
+            <option name="JAVA_CODE" value="false"/>
+            <option name="JAVA_DECLARATION" value="true"/>
+            <option name="GROOVY" value="false"/>
+            <option name="GROOVY_DECLARATION" value="true"/>
+        </context>
+    </template>
+</templateSet>

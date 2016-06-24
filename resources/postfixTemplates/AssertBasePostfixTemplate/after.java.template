@@ -1,0 +1,13 @@
+import static org.assertj.core.api.Assertions.AssertThat;
+
+public class Foo {
+  void foo(Object object) {
+      assertEquals(expr, object, matcher)
+      assertNotEquals(expr, object)
+      assertSame(expr, object)
+      assertNotSame(expr, object)
+      assertThat(expr, object, matcher)
+      assertFalse(expr)
+      assertTrue(expr)
+  }
+}

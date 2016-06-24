@@ -1,0 +1,95 @@
+<templateSet group="timber">
+    <template name="time"
+              value="timber.log.Timber.e($exception$, &quot;$METHOD_NAME$: $content$&quot;);"
+              description="Timber.e(exception, String)"
+              toReformat="true"
+              toShortenFQNames="true">
+        <variable name="exception" expression="" defaultValue="e" alwaysStopAt="false"/>
+        <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="false"/>
+        <variable name="content" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="JAVA_STATEMENT" value="true"/>
+        </context>
+    </template>
+    <template name="timd"
+              value="timber.log.Timber.d(&quot;$METHOD_NAME$: $content$&quot;);"
+              description="Timber.d(String)"
+              toReformat="true"
+              toShortenFQNames="true">
+        <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="false"/>
+        <variable name="content" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="JAVA_STATEMENT" value="true"/>
+        </context>
+    </template>
+    <template name="timv"
+              value="timber.log.Timber.v(&quot;$METHOD_NAME$: $content$&quot;);"
+              description="Timber.v(String)"
+              toReformat="true"
+              toShortenFQNames="true">
+        <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="false"/>
+        <variable name="content" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="JAVA_STATEMENT" value="true"/>
+        </context>
+    </template>
+    <template name="timm"
+              value="timber.log.Timber.v(&quot;$METHOD_NAME$() called with: &quot; +  $args$);"
+              description="Log method name and its arguments"
+              toReformat="true"
+              toShortenFQNames="true">
+        <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="false"/>
+        <variable name="args"
+                  expression="groovyScript(&quot;'\&quot;' + _1.collect { it + ' = [\&quot; + ' + it + ' + \&quot;]'}.join(', ') + '\&quot;'&quot;, methodParameters())"
+                  defaultValue="" alwaysStopAt="false"/>
+        <context>
+            <option name="JAVA_STATEMENT" value="true"/>
+        </context>
+    </template>
+    <template name="timw"
+              value="timber.log.Timber.w($exception$, &quot;$METHOD_NAME$: $content$&quot;);"
+              description="Timber.w(Exception, String)"
+              toReformat="true"
+              toShortenFQNames="true">
+        <variable name="exception" expression="" defaultValue="e" alwaysStopAt="false"/>
+        <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="true"/>
+        <variable name="content" expression="" defaultValue="" alwaysStopAt="false"/>
+        <context>
+            <option name="JAVA_STATEMENT" value="true"/>
+        </context>
+    </template>
+    <template name="timi"
+              value="timber.log.Timber.i(&quot;$METHOD_NAME$: $content$&quot;);"
+              description="Timber.i(String)"
+              toReformat="true"
+              toShortenFQNames="true">
+        <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="false"/>
+        <variable name="content" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="JAVA_STATEMENT" value="true"/>
+        </context>
+    </template>
+    <template name="timr"
+              value="timber.log.Timber.d(&quot;$METHOD_NAME$() returned: &quot; +  $result$);"
+              description="Log result of this method"
+              toReformat="true"
+              toShortenFQNames="true">
+        <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="false"/>
+        <variable name="result" expression="variableOfType(methodReturnType())" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="JAVA_STATEMENT" value="true"/>
+        </context>
+    </template>
+    <template name="timwtf"
+              value="timber.log.Timber.wtf($exception$, &quot;$METHOD_NAME$: $content$&quot;);"
+              description="Timber.wtf(Exception, String)"
+              toReformat="true"
+              toShortenFQNames="true">
+        <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="false"/>
+        <variable name="content" expression="" defaultValue="" alwaysStopAt="true"/>
+        <variable name="exception" expression="" defaultValue="e" alwaysStopAt="false"/>
+        <context>
+            <option name="JAVA_STATEMENT" value="true"/>
+        </context>
+    </template>
+</templateSet>
