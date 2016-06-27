@@ -33,13 +33,13 @@ __Plain extra__
 - `prsf`: private static final
 
     ![](https://raw.githubusercontent.com/cesards/HakunaMatataIntelliJPlugin/master/art/prsf.gif?token=ABdwT6uJqHF7A2PWJ-eqYtyi4x8TBhTBks5XdoGxwA%3D%3D)
-   
+
 - `prsfi`: private static final int
 
     ![](https://raw.githubusercontent.com/cesards/HakunaMatataIntelliJPlugin/master/art/prsfi.gif?token=ABdwT90OQ-CAnlKoXATv6MuYKGVPPdklks5XdoHHwA%3D%3D)
 
 - `prsfs`: private static final String
-    
+
     ![](https://raw.githubusercontent.com/cesards/HakunaMatataIntelliJPlugin/master/art/prsfs.gif?token=ABdwT1cuDeC231vT2pzTqQUlwspTe6hCks5XdoHdwA%3D%3D)
 
 __Other extra__
@@ -183,7 +183,7 @@ These are some of the most important ones (not resource related):
 
 
 | Android           | AndroidLog | AndroidParcelable      | iterations | other | output | plain
-| --                | --         | --                     | --         | --    | --     | --
+| -- | -- | -- | -- | -- | --- | --
 | const             | logd       | Parcelable             | fori       | geti  | serr   | psf
 | foreach           | loge       | ParcelableEnum         | itar       | ifn   | souf   | psfi
 | gone              | logi       | ParcelableEnumTest     | itco       | inn   | sout   | psfs
