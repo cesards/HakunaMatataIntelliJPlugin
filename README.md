@@ -169,7 +169,7 @@ __Android__
 
 - `emptyCheck`
 
-![](art/emptyCheck.gif)
+  ![](art/emptyCheck.gif)
 
 
 <br>
