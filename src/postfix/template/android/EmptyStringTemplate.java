@@ -1,4 +1,4 @@
-package postfix.template.java;
+package postfix.template.android;
 
 import com.intellij.codeInsight.template.Template;
 import com.intellij.codeInsight.template.TemplateManager;

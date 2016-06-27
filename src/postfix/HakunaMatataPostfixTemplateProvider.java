@@ -4,6 +4,7 @@ import com.intellij.codeInsight.template.postfix.templates.JavaPostfixTemplatePr
 import com.intellij.codeInsight.template.postfix.templates.PostfixTemplate;
 import com.intellij.util.containers.ContainerUtil;
 import org.jetbrains.annotations.NotNull;
+import postfix.template.android.EmptyStringTemplate;
 import postfix.template.asserts.AssertBasePostfixTemplate;
 import postfix.template.asserts.AssertMethod;
 import postfix.template.java.*;
