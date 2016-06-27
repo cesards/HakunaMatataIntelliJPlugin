@@ -182,14 +182,14 @@ These are some of the most important ones (not resource related):
 ### Android
 
 
-| Android           | AndroidLog | AndroidParcelable      | iterations | other | output | plain
-| -- | -- | -- | -- | -- | --- | --
-| const             | logd       | Parcelable             | fori       | geti  | serr   | psf
-| foreach           | loge       | ParcelableEnum         | itar       | ifn   | souf   | psfi
-| gone              | logi       | ParcelableEnumTest     | itco       | inn   | sout   | psfs
-| IntentView        | logm       | ParcelBoolean          | iten       | inst  | soutm  | St
-| key               | logr       | UnparcelBoolean        | iter       | lazy  | soutp  | thr
-| newInstance       | logt       | UnparcelIntArray       | itit       | last  | soutv  |
+| Android           | AndroidLog | AndroidParcelable      | iterations | other | output | plain |
+| ----------------- | ---------- | ---------------------- | ---------- | ----- | ------ | ----- |
+| const             | logd       | Parcelable             | fori       | geti  | serr   | psf   |
+| foreach           | loge       | ParcelableEnum         | itar       | ifn   | souf   | psfi  |
+| gone              | logi       | ParcelableEnumTest     | itco       | inn   | sout   | psfs  |
+| IntentView        | logm       | ParcelBoolean          | iten       | inst  | soutm  | St    |
+| key               | logr       | UnparcelBoolean        | iter       | lazy  | soutp  | thr   |
+| newInstance       | logt       | UnparcelIntArray       | itit       | last  | soutv  |       |
 | noInstance        | logw       | UnparcelStringArray    | itli       | mn    |
 | rgS               | wtf        |                        | ittok      | mx    |
 | rouiT             |            |                        | itve       | psvm  |
