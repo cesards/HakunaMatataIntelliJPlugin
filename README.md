@@ -7,6 +7,8 @@
     - <a href="#live_templates">__Live templates__</a>
     - <a href="#postfix_autocompletions">__Postfix autocompletions__</a>
 - <a href="#how_to">__How to use__</a>
+- <a href="#feedback_contribution">__Feedback and contribution__</a>
+- <a href="#main_contributors">__Main contributors__</a>
 - <a href="#references">__References__</a>
 - <a href="#license">__License__</a>
 
@@ -32,21 +34,21 @@ __Plain extra__
 
 - `prsf`: private static final
 
-    ![](https://raw.githubusercontent.com/cesards/HakunaMatataIntelliJPlugin/master/art/prsf.gif?token=ABdwT6uJqHF7A2PWJ-eqYtyi4x8TBhTBks5XdoGxwA%3D%3D)
+    ![](art/prsf.gif)
 
 - `prsfi`: private static final int
 
-    ![](https://raw.githubusercontent.com/cesards/HakunaMatataIntelliJPlugin/master/art/prsfi.gif?token=ABdwT90OQ-CAnlKoXATv6MuYKGVPPdklks5XdoHHwA%3D%3D)
+    ![](art/prsfi.gif)
 
 - `prsfs`: private static final String
 
-    ![](https://raw.githubusercontent.com/cesards/HakunaMatataIntelliJPlugin/master/art/prsfs.gif?token=ABdwT1cuDeC231vT2pzTqQUlwspTe6hCks5XdoHdwA%3D%3D)
+    ![](art/prsfs.gif)
 
 __Other extra__
 
 - `ifElse`: Inserts ''if else'' statement
 
-    ![](https://raw.githubusercontent.com/cesards/HakunaMatataIntelliJPlugin/master/art/ifElse.gif?token=ABdwT1butDlatO1eJK-SdDgEmSDklrmvks5XdoErwA%3D%3D)
+    ![](art/ifElse.gif)
 
 __Timber__
 
@@ -137,6 +139,21 @@ __Mockito__
 <a name="how_to">
 ### How to use
 
+The plugin will be ready to be downloaded from the IntelliJ plugin repository whenever the release 1.0 comes out. Meanwhile you need to download [__this jar__]() compiled in the repo with last changes, open IntelliJ preferences and look for the `Plugins` section and install it as shown in the following picture:
+![](art/how-to.png)
+
+<br>
+
+<a name="feedback_contribution">
+### Feedback and contribution
+
+This has been open-sourced for a main purpose, make developing's life easier during your day to day. I encourage you to suggest improvements, like better namings for the completions or templates, parametrizations and so on. Feel free to ask for anything and contribute to whatever you would like to improve.
+
+<br>
+
+<a name="main_contributors">
+### Main contributors
+- [__César Díez__](github.com/cesards)
 
 <br>
 
@@ -334,11 +351,6 @@ These are some of the most important ones (not resource related):
 
 
 
-
-
-
-
-## https://github.com/keyboardsurfer/idea-live-templates
 
 
 
