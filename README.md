@@ -177,7 +177,7 @@ __Android__
 <a name="how_to">
 ### How to use
 
-The plugin will be ready to be downloaded from the IntelliJ plugin repository whenever the release 1.0 comes out. Meanwhile you need to download [__this jar__](HakunaMatata.jar) compiled in the repo with last changes, open IntelliJ preferences and look for the `Plugins` section and install it as shown in the following picture:
+The plugin will be ready to be downloaded from the IntelliJ plugin repository whenever the release 1.0 comes out. Meanwhile you need to download [__this jar__](https://github.com/cesards/HakunaMatataIntelliJPlugin/raw/master/HakunaMatata.jar) compiled in the repo with last changes, open IntelliJ preferences and look for the `Plugins` section and install it as shown in the following picture:
 
 ![](art/how-to.png)
 
