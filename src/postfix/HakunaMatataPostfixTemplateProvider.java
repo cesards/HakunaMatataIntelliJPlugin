@@ -23,7 +23,7 @@ public class HakunaMatataPostfixTemplateProvider extends JavaPostfixTemplateProv
                 new EmptyStringTemplate(),
                 new NewExpressionTemplate(),
                 new IfElseStatementPostfixTemplate(),
-                new IfElseIfStatementPostfixTemplate(),
+//                new IfElseIfStatementPostfixTemplate(),
                 new AssertBasePostfixTemplate(AssertMethod.EQUALS),
                 new AssertBasePostfixTemplate(AssertMethod.NOT_EQUALS),
                 new AssertBasePostfixTemplate(AssertMethod.SAME),
