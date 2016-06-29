@@ -1,14 +1,16 @@
 <idea-plugin version="2">
     <id>com.cesards.intellij.hakunamatata</id>
     <name>Hakuna Matata Postfix Completion</name>
-    <version>1.0</version>
-    <vendor email="cesaryomismo@gmail.com" url="http://codeforvictory.com">Cesards</vendor>
+    <version>0.4</version>
+    <vendor email="cesaryomismo@gmail.com" url="https://github.com/cesards/HakunaMatataIntelliJPlugin">Cesards</vendor>
 
     <description><![CDATA[
         The main purpose of the plugin is adding postfix completion and live templates we can
-        use in our day to day development
+        use in our day to day development.
 
-        <b>Available live templates:</b><br/><br/>
+        <br/><br/>
+
+        <b>Available live templates:</b>
 
         <ul>
             <li> <b>prsf</b> – Inserts ''private static final'' statement – </li>
@@ -25,7 +27,9 @@
             <li> <b>timwtf</b> – Inserts '' Timber.wtf(Exception, String)'' statement – </li>
         </ul>
 
-        <b>Available postfix completion templates:</b><br/><br/>
+        <br/>
+
+        <b>Available postfix completion templates:</b>
 
         <ul>
             <li> <b>.emptyCheck</b> </li>
@@ -52,6 +56,15 @@
             <li> <b>.doThrowWhen</b> </li>
             <li> <b>.mock</b> </li>
         </ul>
+
+        <br/>
+
+        <p>
+            <b>Do you want more information about the live templates and postfix completions included in the plugin?<b>
+            <br/>
+            Have a look to the repository's <a href="https://github.com/cesards/HakunaMatataIntelliJPlugin/blob/master/README.md">README</a> file
+        </p>
+
 
     ]]></description>
 
