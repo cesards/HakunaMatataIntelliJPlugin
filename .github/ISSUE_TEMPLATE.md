@@ -1,4 +1,4 @@
-#### If you are raising a bug, please include this information:
+### If you are raising a bug, please include this information:
 
 ##### 1. Steps taken to see the issue.
 ##### 2. Observed behavior.
@@ -10,9 +10,9 @@
 > Ideally include screenshots too where appropriate.
 > If you are able to, try to use Github tags (bug, priority and so on) for the issue
 
-<br>
+<br><br>
 
-#### If you are raising a feature / proposal, please include this information:
+### If you are raising a feature / proposal, please include this information:
 
 ##### 1. Expected behavior.
 
