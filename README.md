@@ -186,9 +186,11 @@ The plugin will be ready to be downloaded from the IntelliJ plugin repository wh
 <a name="changelog">
 ### Changelog
 
+- __0.4.0.5 (2016-06-29)__
+  - Minor compatibility fixes.
 - __0.4 (2016-06-27)__
-   - First `Android`, `Mockito`, `Java` and `Assert` type completions added.
-   - `Plain extra` and `Other extra` live templates added.
+  - First `Android`, `Mockito`, `Java` and `Assert` type completions added.
+  - `Plain extra` and `Other extra` live templates added.
 
 <br>
 
