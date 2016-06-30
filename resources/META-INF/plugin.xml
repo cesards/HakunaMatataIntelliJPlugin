@@ -1,7 +1,7 @@
 <idea-plugin version="2">
     <id>com.cesards.intellij.hakunamatata</id>
-    <name>Hakuna Matata Postfix Completion</name>
-    <version>0.4</version>
+    <name>Hakuna Matata Development - Live Templates + Postfix Completions</name>
+    <version>0.4.0.5</version>
     <vendor email="cesaryomismo@gmail.com" url="https://github.com/cesards/HakunaMatataIntelliJPlugin">Cesards</vendor>
 
     <description><![CDATA[
@@ -13,18 +13,18 @@
         <b>Available live templates:</b>
 
         <ul>
-            <li> <b>prsf</b> – Inserts ''private static final'' statement – </li>
-            <li> <b>prsfi</b> – Inserts ''private static final int'' statement – </li>
-            <li> <b>prsfs</b> – Inserts ''private static final String'' statement – </li>
-            <li> <b>ifElse</b> – Inserts ''if else'' statement – </li>
-            <li> <b>time</b> – Inserts ''Timber.e(exception, String)'' statement – </li>
-            <li> <b>timd</b> – Inserts ''Timber.d(String)'' statement – </li>
-            <li> <b>timv</b> – Inserts ''Timber.v(String)'' statement – </li>
-            <li> <b>timm</b> – Inserts ''Log method name and its arguments'' statement – </li>
-            <li> <b>timw</b> – Inserts ''Timber.w(Exception, String)'' statement – </li>
-            <li> <b>timi</b> – Inserts ''Timber.i(String)'' statement – </li>
-            <li> <b>timr</b> – Inserts ''Log result of this method'' statement – </li>
-            <li> <b>timwtf</b> – Inserts '' Timber.wtf(Exception, String)'' statement – </li>
+            <li> <b>prsf</b> – Inserts ''private static final'' statement</li>
+            <li> <b>prsfi</b> – Inserts ''private static final int'' statement</li>
+            <li> <b>prsfs</b> – Inserts ''private static final String'' statement</li>
+            <li> <b>ifElse</b> – Inserts ''if else'' statement</li>
+            <li> <b>time</b> – Inserts ''Timber.e(exception, String)'' statement</li>
+            <li> <b>timd</b> – Inserts ''Timber.d(String)'' statement</li>
+            <li> <b>timv</b> – Inserts ''Timber.v(String)'' statement</li>
+            <li> <b>timm</b> – Inserts ''Log method name and its arguments'' statement</li>
+            <li> <b>timw</b> – Inserts ''Timber.w(Exception, String)'' statement</li>
+            <li> <b>timi</b> – Inserts ''Timber.i(String)'' statement</li>
+            <li> <b>timr</b> – Inserts ''Log result of this method'' statement</li>
+            <li> <b>timwtf</b> – Inserts '' Timber.wtf(Exception, String)'' statement</li>
         </ul>
 
         <br/>
@@ -69,6 +69,10 @@
     ]]></description>
 
     <change-notes><![CDATA[
+    <b>* Version 0.4.0.5 (Initial release)</b><br/>
+    <ul>
+        <li>Minor compatibility fixes.</li>
+    </ul>
     <b>* Version 0.4 (Initial release)</b><br/>
     <ul>
         <li>First Android, Mockito, Java and Assert type completions added.</li>
@@ -82,8 +86,7 @@
     <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
          on how to target different products -->
 
-    <!--<depends>com.intellij.modules.lang</depends>-->
-    <!--<depends>com.intellij.modules.java</depends>-->
+    <depends>com.intellij.modules.java</depends>
 
     <extensions defaultExtensionNs="com.intellij">
         <codeInsight.template.postfixTemplateProvider language="JAVA"
@@ -93,7 +96,3 @@
 
     <actions/>
 </idea-plugin>
-
-
-<!--<li> <b>.emptyCheck</b> – checks boolean expression to be true – <b>if (expr)</b></li>-->
-<!--<li> <b>.newInstanceWithAssignment</b> – checks boolean expression to be true – <b>if (expr)</b></li-->
