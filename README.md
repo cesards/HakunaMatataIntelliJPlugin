@@ -201,7 +201,28 @@ This has been open-sourced for a main purpose, make developing's life easier dur
 
 <a name="main_contributors">
 ### Main contributors
-- [__César Díez__](github.com/cesards)
+
+<a href="https://github.com/cesards">
+  <br>César Díez</b>
+</a>
+<a >
+  <br> - </b>
+</a>
+<a href="https://twitter.com/menorking">
+  <img alt="Follow me on Twitter" src="http://i.imgur.com/HKI623d.png" />
+</a>
+<a href="https://plus.google.com/115273462230054581675">
+  <img alt="Follow me on Google Plus" src="http://i.imgur.com/V1l4PaX.png" />
+</a>
+<a href="https://www.pinterest.com/menorking/">
+  <img alt="Follow me on Pinterest" src="http://i.imgur.com/V1l4PaX.png" />
+</a>
+<a href="https://dribbble.com/cesards/buckets">
+  <img alt="Follow me on Dribbble" src="http://i.imgur.com/V1l4PaX.png" />
+</a>
+<a href="http://www.linkedin.com/in/cesardiezsanchez">
+  <img alt="Add me to Linkedin" src="http://i.imgur.com/V1l4PaX.png" />
+</a>
 
 <br>
 
