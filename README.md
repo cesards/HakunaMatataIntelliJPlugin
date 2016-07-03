@@ -203,6 +203,22 @@ This has been open-sourced for a main purpose, make developing's life easier dur
 ### Main contributors
 - [__César Díez__](github.com/cesards)
 
+<a href="https://twitter.com/menorking">
+  <img alt="Follow me on Twitter" src="http://i.imgur.com/Ty5BiyE.png" />
+</a>
+<a href="https://plus.google.com/115273462230054581675">
+  <img alt="Follow me on Google Plus" src="http://i.imgur.com/W7lQ2Uq.png" />
+</a>
+<a href="https://www.pinterest.com/menorking/">
+  <img alt="Follow me on Pinterest" src="http://i.imgur.com/P9KD5DE.png" />
+</a>
+<a href="https://dribbble.com/cesards/buckets">
+  <img alt="Follow me on Dribbble" src="http://i.imgur.com/UNWPXP3.png" />
+</a>
+<a href="http://www.linkedin.com/in/cesardiezsanchez">
+  <img alt="Add me to Linkedin" src="http://i.imgur.com/Ty5BiyE.png" />
+</a>
+
 <br>
 
 <a name="references">
