@@ -1,5 +1,9 @@
 # Hakuna Matata Development IntelliJ / AS Plugin
 
+![Version](http://phpstorm.espend.de/badge/8447/version)](https://plugins.jetbrains.com/plugin/8447)
+[![Downloads](http://phpstorm.espend.de/badge/8447/downloads)](https://plugins.jetbrains.com/plugin/8447)
+[![Downloads last month](http://phpstorm.espend.de/badge/8447/last-month)](https://plugins.jetbrains.com/plugin/8447)
+
 #### Table of Contents
 
 - <a href="#motivation">__Motivation__</a>
