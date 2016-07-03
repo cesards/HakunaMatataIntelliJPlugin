@@ -1,6 +1,6 @@
 # Hakuna Matata Development IntelliJ / AS Plugin
 
-![Version](http://phpstorm.espend.de/badge/8447/version)](https://plugins.jetbrains.com/plugin/8447)
+[![Version](http://phpstorm.espend.de/badge/8447/version)](https://plugins.jetbrains.com/plugin/8447)
 [![Downloads](http://phpstorm.espend.de/badge/8447/downloads)](https://plugins.jetbrains.com/plugin/8447)
 [![Downloads last month](http://phpstorm.espend.de/badge/8447/last-month)](https://plugins.jetbrains.com/plugin/8447)
 
@@ -207,6 +207,7 @@ This has been open-sourced for a main purpose, make developing's life easier dur
 ### Main contributors
 
 - [__César Díez Sánchez__](https://github.com/cesards)
+<br>
 <a href="https://twitter.com/menorking">
   <img alt="Follow me on Twitter" src="http://i.imgur.com/HKI623d.png" />
 </a>
