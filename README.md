@@ -207,6 +207,7 @@ This has been open-sourced for a main purpose, make developing's life easier dur
 ### Main contributors
 
 - [__César Díez Sánchez__](https://github.com/cesards)
+<br>
 <a href="https://twitter.com/menorking">
   <img alt="Follow me on Twitter" src="http://i.imgur.com/HKI623d.png" />
 </a>
